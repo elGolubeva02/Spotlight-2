@@ -91,7 +91,7 @@ namespace ПП
             // 
             this.gunaLabel7.AutoSize = true;
             this.gunaLabel7.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.gunaLabel7.Location = new System.Drawing.Point(254, 24);
+            this.gunaLabel7.Location = new System.Drawing.Point(447, 23);
             this.gunaLabel7.Name = "gunaLabel7";
             this.gunaLabel7.Size = new System.Drawing.Size(0, 21);
             this.gunaLabel7.TabIndex = 14;
@@ -110,7 +110,7 @@ namespace ПП
             this.gunaButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton1.Image")));
             this.gunaButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton1.ImageSize = new System.Drawing.Size(40, 40);
-            this.gunaButton1.Location = new System.Drawing.Point(197, 14);
+            this.gunaButton1.Location = new System.Drawing.Point(378, 12);
             this.gunaButton1.Name = "gunaButton1";
             this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.White;
             this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -125,7 +125,7 @@ namespace ПП
             // 
             this.gunaLabel1.AutoSize = true;
             this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gunaLabel1.Location = new System.Drawing.Point(14, 24);
+            this.gunaLabel1.Location = new System.Drawing.Point(14, 23);
             this.gunaLabel1.Name = "gunaLabel1";
             this.gunaLabel1.Size = new System.Drawing.Size(125, 21);
             this.gunaLabel1.TabIndex = 12;
@@ -136,7 +136,7 @@ namespace ПП
             this.gunaPictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox3.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox3.BackgroundImage")));
             this.gunaPictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox3.BaseColor = System.Drawing.Color.White;
@@ -151,11 +151,11 @@ namespace ПП
             this.gunaPictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox2.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox2.BackgroundImage")));
             this.gunaPictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox2.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox2.Location = new System.Drawing.Point(235, 173);
+            this.gunaPictureBox2.Location = new System.Drawing.Point(236, 173);
             this.gunaPictureBox2.Name = "gunaPictureBox2";
             this.gunaPictureBox2.Size = new System.Drawing.Size(126, 126);
             this.gunaPictureBox2.TabIndex = 16;
@@ -166,7 +166,7 @@ namespace ПП
             this.gunaPictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox1.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox1.BackgroundImage")));
             this.gunaPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
@@ -181,7 +181,7 @@ namespace ПП
             this.gunaPictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox4.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox4.BackgroundImage")));
             this.gunaPictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox4.BaseColor = System.Drawing.Color.White;
@@ -196,7 +196,7 @@ namespace ПП
             this.gunaPictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox5.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox5.BackgroundImage")));
             this.gunaPictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox5.BaseColor = System.Drawing.Color.White;
@@ -209,10 +209,10 @@ namespace ПП
             // gunaTextBox5
             // 
             this.gunaTextBox5.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox5.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox5.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox5.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox5.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox5.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaTextBox5.Location = new System.Drawing.Point(55, 72);
@@ -235,10 +235,10 @@ namespace ПП
             // gunaTextBox3
             // 
             this.gunaTextBox3.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox3.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox3.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox3.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox3.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox3.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaTextBox3.Location = new System.Drawing.Point(55, 111);
@@ -261,10 +261,10 @@ namespace ПП
             // gunaTextBox4
             // 
             this.gunaTextBox4.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox4.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox4.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox4.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox4.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox4.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaTextBox4.Location = new System.Drawing.Point(113, 72);
@@ -287,10 +287,10 @@ namespace ПП
             // gunaTextBox6
             // 
             this.gunaTextBox6.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox6.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox6.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox6.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox6.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox6.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaTextBox6.Location = new System.Drawing.Point(113, 111);
@@ -313,10 +313,10 @@ namespace ПП
             // gunaTextBox1
             // 
             this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaTextBox1.Location = new System.Drawing.Point(313, 111);
@@ -339,10 +339,10 @@ namespace ПП
             // gunaTextBox2
             // 
             this.gunaTextBox2.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox2.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox2.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox2.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox2.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox2.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaTextBox2.Location = new System.Drawing.Point(313, 72);
@@ -365,10 +365,10 @@ namespace ПП
             // gunaTextBox7
             // 
             this.gunaTextBox7.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox7.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox7.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox7.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox7.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox7.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaTextBox7.Location = new System.Drawing.Point(255, 111);
@@ -391,10 +391,10 @@ namespace ПП
             // gunaTextBox8
             // 
             this.gunaTextBox8.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox8.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox8.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox8.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox8.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox8.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox8.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaTextBox8.Location = new System.Drawing.Point(255, 72);
@@ -417,10 +417,10 @@ namespace ПП
             // gunaTextBox10
             // 
             this.gunaTextBox10.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox10.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox10.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox10.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox10.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox10.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox10.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox10.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaTextBox10.Location = new System.Drawing.Point(516, 72);
@@ -443,10 +443,10 @@ namespace ПП
             // gunaTextBox12
             // 
             this.gunaTextBox12.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox12.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox12.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox12.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox12.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox12.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox12.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox12.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox12.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaTextBox12.Location = new System.Drawing.Point(458, 72);

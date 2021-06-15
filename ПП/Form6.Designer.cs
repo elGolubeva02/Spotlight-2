@@ -77,7 +77,7 @@ namespace ПП
             this.gunaPictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox4.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox4.BackgroundImage")));
             this.gunaPictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox4.BaseColor = System.Drawing.Color.White;
@@ -92,7 +92,7 @@ namespace ПП
             this.gunaPictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox3.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox3.BackgroundImage")));
             this.gunaPictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox3.BaseColor = System.Drawing.Color.White;
@@ -107,7 +107,7 @@ namespace ПП
             this.gunaPictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox2.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox2.BackgroundImage")));
             this.gunaPictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox2.BaseColor = System.Drawing.Color.White;
@@ -122,7 +122,7 @@ namespace ПП
             this.gunaPictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox1.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox1.BackgroundImage")));
             this.gunaPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
@@ -136,7 +136,7 @@ namespace ПП
             // 
             this.gunaLabel7.AutoSize = true;
             this.gunaLabel7.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.gunaLabel7.Location = new System.Drawing.Point(254, 22);
+            this.gunaLabel7.Location = new System.Drawing.Point(447, 23);
             this.gunaLabel7.Name = "gunaLabel7";
             this.gunaLabel7.Size = new System.Drawing.Size(0, 21);
             this.gunaLabel7.TabIndex = 75;
@@ -155,7 +155,7 @@ namespace ПП
             this.gunaButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton1.Image")));
             this.gunaButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton1.ImageSize = new System.Drawing.Size(40, 40);
-            this.gunaButton1.Location = new System.Drawing.Point(197, 12);
+            this.gunaButton1.Location = new System.Drawing.Point(378, 12);
             this.gunaButton1.Name = "gunaButton1";
             this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.White;
             this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -207,6 +207,7 @@ namespace ПП
             this.gunaLabel3.Size = new System.Drawing.Size(62, 15);
             this.gunaLabel3.TabIndex = 95;
             this.gunaLabel3.Text = "Yes, it can.";
+            this.gunaLabel3.Click += new System.EventHandler(this.gunaLabel3_Click);
             // 
             // gunaLabel8
             // 
@@ -241,8 +242,8 @@ namespace ПП
             // 
             this.gunaMediumCheckBox2.AllowDrop = true;
             this.gunaMediumCheckBox2.BaseColor = System.Drawing.Color.White;
-            this.gunaMediumCheckBox2.CheckedOffColor = System.Drawing.Color.SeaGreen;
-            this.gunaMediumCheckBox2.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox2.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
+            this.gunaMediumCheckBox2.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaMediumCheckBox2.FillColor = System.Drawing.Color.White;
             this.gunaMediumCheckBox2.Location = new System.Drawing.Point(127, 244);
             this.gunaMediumCheckBox2.Name = "gunaMediumCheckBox2";
@@ -254,8 +255,8 @@ namespace ПП
             // 
             this.gunaMediumCheckBox1.AllowDrop = true;
             this.gunaMediumCheckBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaMediumCheckBox1.CheckedOffColor = System.Drawing.Color.SeaGreen;
-            this.gunaMediumCheckBox1.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox1.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
+            this.gunaMediumCheckBox1.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaMediumCheckBox1.FillColor = System.Drawing.Color.White;
             this.gunaMediumCheckBox1.Location = new System.Drawing.Point(127, 267);
             this.gunaMediumCheckBox1.Name = "gunaMediumCheckBox1";
@@ -267,8 +268,8 @@ namespace ПП
             // 
             this.gunaMediumCheckBox5.AllowDrop = true;
             this.gunaMediumCheckBox5.BaseColor = System.Drawing.Color.White;
-            this.gunaMediumCheckBox5.CheckedOffColor = System.Drawing.Color.SeaGreen;
-            this.gunaMediumCheckBox5.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox5.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
+            this.gunaMediumCheckBox5.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaMediumCheckBox5.FillColor = System.Drawing.Color.White;
             this.gunaMediumCheckBox5.Location = new System.Drawing.Point(405, 267);
             this.gunaMediumCheckBox5.Name = "gunaMediumCheckBox5";
@@ -279,8 +280,8 @@ namespace ПП
             // 
             this.gunaMediumCheckBox6.AllowDrop = true;
             this.gunaMediumCheckBox6.BaseColor = System.Drawing.Color.White;
-            this.gunaMediumCheckBox6.CheckedOffColor = System.Drawing.Color.SeaGreen;
-            this.gunaMediumCheckBox6.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox6.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
+            this.gunaMediumCheckBox6.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaMediumCheckBox6.FillColor = System.Drawing.Color.White;
             this.gunaMediumCheckBox6.Location = new System.Drawing.Point(405, 244);
             this.gunaMediumCheckBox6.Name = "gunaMediumCheckBox6";
@@ -331,8 +332,8 @@ namespace ПП
             // 
             this.gunaMediumCheckBox4.AllowDrop = true;
             this.gunaMediumCheckBox4.BaseColor = System.Drawing.Color.White;
-            this.gunaMediumCheckBox4.CheckedOffColor = System.Drawing.Color.SeaGreen;
-            this.gunaMediumCheckBox4.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox4.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
+            this.gunaMediumCheckBox4.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaMediumCheckBox4.FillColor = System.Drawing.Color.White;
             this.gunaMediumCheckBox4.Location = new System.Drawing.Point(405, 512);
             this.gunaMediumCheckBox4.Name = "gunaMediumCheckBox4";
@@ -343,8 +344,8 @@ namespace ПП
             // 
             this.gunaMediumCheckBox7.AllowDrop = true;
             this.gunaMediumCheckBox7.BaseColor = System.Drawing.Color.White;
-            this.gunaMediumCheckBox7.CheckedOffColor = System.Drawing.Color.SeaGreen;
-            this.gunaMediumCheckBox7.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox7.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
+            this.gunaMediumCheckBox7.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaMediumCheckBox7.FillColor = System.Drawing.Color.White;
             this.gunaMediumCheckBox7.Location = new System.Drawing.Point(405, 489);
             this.gunaMediumCheckBox7.Name = "gunaMediumCheckBox7";
@@ -404,8 +405,8 @@ namespace ПП
             // 
             this.gunaMediumCheckBox3.AllowDrop = true;
             this.gunaMediumCheckBox3.BaseColor = System.Drawing.Color.White;
-            this.gunaMediumCheckBox3.CheckedOffColor = System.Drawing.Color.SeaGreen;
-            this.gunaMediumCheckBox3.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox3.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
+            this.gunaMediumCheckBox3.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaMediumCheckBox3.FillColor = System.Drawing.Color.White;
             this.gunaMediumCheckBox3.Location = new System.Drawing.Point(128, 512);
             this.gunaMediumCheckBox3.Name = "gunaMediumCheckBox3";
@@ -416,8 +417,8 @@ namespace ПП
             // 
             this.gunaMediumCheckBox8.AllowDrop = true;
             this.gunaMediumCheckBox8.BaseColor = System.Drawing.Color.White;
-            this.gunaMediumCheckBox8.CheckedOffColor = System.Drawing.Color.SeaGreen;
-            this.gunaMediumCheckBox8.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox8.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
+            this.gunaMediumCheckBox8.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaMediumCheckBox8.FillColor = System.Drawing.Color.White;
             this.gunaMediumCheckBox8.Location = new System.Drawing.Point(128, 489);
             this.gunaMediumCheckBox8.Name = "gunaMediumCheckBox8";
@@ -540,7 +541,7 @@ namespace ПП
             this.Controls.Add(this.gunaButton1);
             this.Controls.Add(this.gunaLabel1);
             this.Name = "Form6";
-            this.Text = "Form6";
+            this.Text = "Module3";
             this.Load += new System.EventHandler(this.Form6_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox3)).EndInit();

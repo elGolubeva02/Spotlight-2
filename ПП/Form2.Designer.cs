@@ -62,7 +62,6 @@ namespace ПП
             this.gunaTextBox6 = new Guna.UI.WinForms.GunaTextBox();
             this.gunaLabel13 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel19 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel20 = new Guna.UI.WinForms.GunaLabel();
             this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
             this.gunaLabel18 = new Guna.UI.WinForms.GunaLabel();
             this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
@@ -80,7 +79,7 @@ namespace ПП
             this.gunaPictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox1.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox1.BackgroundImage")));
             this.gunaPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
@@ -107,11 +106,11 @@ namespace ПП
             this.gunaPictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox2.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox2.BackgroundImage")));
             this.gunaPictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox2.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox2.Location = new System.Drawing.Point(235, 77);
+            this.gunaPictureBox2.Location = new System.Drawing.Point(236, 77);
             this.gunaPictureBox2.Name = "gunaPictureBox2";
             this.gunaPictureBox2.Size = new System.Drawing.Size(126, 126);
             this.gunaPictureBox2.TabIndex = 2;
@@ -122,7 +121,7 @@ namespace ПП
             this.gunaPictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox3.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox3.BackgroundImage")));
             this.gunaPictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox3.BaseColor = System.Drawing.Color.White;
@@ -186,10 +185,10 @@ namespace ПП
             // gunaTextBox1
             // 
             this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaTextBox1.Location = new System.Drawing.Point(292, 242);
@@ -213,7 +212,7 @@ namespace ПП
             this.gunaButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton1.Image")));
             this.gunaButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton1.ImageSize = new System.Drawing.Size(40, 40);
-            this.gunaButton1.Location = new System.Drawing.Point(197, 13);
+            this.gunaButton1.Location = new System.Drawing.Point(378, 12);
             this.gunaButton1.Name = "gunaButton1";
             this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.White;
             this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -228,7 +227,7 @@ namespace ПП
             // 
             this.gunaLabel7.AutoSize = true;
             this.gunaLabel7.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.gunaLabel7.Location = new System.Drawing.Point(254, 23);
+            this.gunaLabel7.Location = new System.Drawing.Point(447, 23);
             this.gunaLabel7.Name = "gunaLabel7";
             this.gunaLabel7.Size = new System.Drawing.Size(0, 21);
             this.gunaLabel7.TabIndex = 11;
@@ -236,10 +235,10 @@ namespace ПП
             // gunaTextBox2
             // 
             this.gunaTextBox2.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox2.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox2.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox2.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox2.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox2.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaTextBox2.Location = new System.Drawing.Point(507, 242);
@@ -274,11 +273,11 @@ namespace ПП
             this.gunaPictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox4.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox4.BackgroundImage")));
             this.gunaPictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox4.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox4.Location = new System.Drawing.Point(25, 373);
+            this.gunaPictureBox4.Location = new System.Drawing.Point(25, 365);
             this.gunaPictureBox4.Name = "gunaPictureBox4";
             this.gunaPictureBox4.Size = new System.Drawing.Size(126, 126);
             this.gunaPictureBox4.TabIndex = 15;
@@ -289,11 +288,11 @@ namespace ПП
             this.gunaPictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox5.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox5.BackgroundImage")));
             this.gunaPictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox5.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox5.Location = new System.Drawing.Point(25, 552);
+            this.gunaPictureBox5.Location = new System.Drawing.Point(25, 544);
             this.gunaPictureBox5.Name = "gunaPictureBox5";
             this.gunaPictureBox5.Size = new System.Drawing.Size(126, 126);
             this.gunaPictureBox5.TabIndex = 16;
@@ -304,11 +303,11 @@ namespace ПП
             this.gunaPictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox6.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox6.BackgroundImage")));
             this.gunaPictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox6.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox6.Location = new System.Drawing.Point(447, 373);
+            this.gunaPictureBox6.Location = new System.Drawing.Point(447, 365);
             this.gunaPictureBox6.Name = "gunaPictureBox6";
             this.gunaPictureBox6.Size = new System.Drawing.Size(126, 126);
             this.gunaPictureBox6.TabIndex = 17;
@@ -319,11 +318,11 @@ namespace ПП
             this.gunaPictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaPictureBox7.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaPictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox7.BackgroundImage")));
             this.gunaPictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.gunaPictureBox7.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox7.Location = new System.Drawing.Point(447, 552);
+            this.gunaPictureBox7.Location = new System.Drawing.Point(447, 544);
             this.gunaPictureBox7.Name = "gunaPictureBox7";
             this.gunaPictureBox7.Size = new System.Drawing.Size(126, 126);
             this.gunaPictureBox7.TabIndex = 18;
@@ -333,7 +332,7 @@ namespace ПП
             // 
             this.gunaLabel14.AutoSize = true;
             this.gunaLabel14.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaLabel14.Location = new System.Drawing.Point(255, 466);
+            this.gunaLabel14.Location = new System.Drawing.Point(255, 458);
             this.gunaLabel14.Name = "gunaLabel14";
             this.gunaLabel14.Size = new System.Drawing.Size(56, 15);
             this.gunaLabel14.TabIndex = 23;
@@ -344,7 +343,7 @@ namespace ПП
             // 
             this.gunaLabel15.AutoSize = true;
             this.gunaLabel15.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaLabel15.Location = new System.Drawing.Point(255, 503);
+            this.gunaLabel15.Location = new System.Drawing.Point(255, 495);
             this.gunaLabel15.Name = "gunaLabel15";
             this.gunaLabel15.Size = new System.Drawing.Size(86, 15);
             this.gunaLabel15.TabIndex = 24;
@@ -354,7 +353,7 @@ namespace ПП
             // 
             this.gunaLabel16.AutoSize = true;
             this.gunaLabel16.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaLabel16.Location = new System.Drawing.Point(255, 539);
+            this.gunaLabel16.Location = new System.Drawing.Point(255, 531);
             this.gunaLabel16.Name = "gunaLabel16";
             this.gunaLabel16.Size = new System.Drawing.Size(77, 15);
             this.gunaLabel16.TabIndex = 25;
@@ -365,7 +364,7 @@ namespace ПП
             // 
             this.gunaLabel17.AutoSize = true;
             this.gunaLabel17.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaLabel17.Location = new System.Drawing.Point(255, 577);
+            this.gunaLabel17.Location = new System.Drawing.Point(255, 569);
             this.gunaLabel17.Name = "gunaLabel17";
             this.gunaLabel17.Size = new System.Drawing.Size(80, 15);
             this.gunaLabel17.TabIndex = 26;
@@ -374,13 +373,13 @@ namespace ПП
             // gunaTextBox3
             // 
             this.gunaTextBox3.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox3.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox3.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox3.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox3.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox3.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox3.Location = new System.Drawing.Point(80, 505);
+            this.gunaTextBox3.Location = new System.Drawing.Point(80, 497);
             this.gunaTextBox3.Name = "gunaTextBox3";
             this.gunaTextBox3.PasswordChar = '\0';
             this.gunaTextBox3.SelectedText = "";
@@ -391,7 +390,7 @@ namespace ПП
             // 
             this.gunaLabel10.AutoSize = true;
             this.gunaLabel10.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaLabel10.Location = new System.Drawing.Point(61, 511);
+            this.gunaLabel10.Location = new System.Drawing.Point(61, 503);
             this.gunaLabel10.Name = "gunaLabel10";
             this.gunaLabel10.Size = new System.Drawing.Size(13, 15);
             this.gunaLabel10.TabIndex = 28;
@@ -400,13 +399,13 @@ namespace ПП
             // gunaTextBox4
             // 
             this.gunaTextBox4.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox4.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox4.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox4.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox4.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox4.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox4.Location = new System.Drawing.Point(80, 685);
+            this.gunaTextBox4.Location = new System.Drawing.Point(80, 677);
             this.gunaTextBox4.Name = "gunaTextBox4";
             this.gunaTextBox4.PasswordChar = '\0';
             this.gunaTextBox4.SelectedText = "";
@@ -417,7 +416,7 @@ namespace ПП
             // 
             this.gunaLabel11.AutoSize = true;
             this.gunaLabel11.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaLabel11.Location = new System.Drawing.Point(61, 691);
+            this.gunaLabel11.Location = new System.Drawing.Point(61, 683);
             this.gunaLabel11.Name = "gunaLabel11";
             this.gunaLabel11.Size = new System.Drawing.Size(13, 15);
             this.gunaLabel11.TabIndex = 30;
@@ -426,13 +425,13 @@ namespace ПП
             // gunaTextBox5
             // 
             this.gunaTextBox5.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox5.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox5.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox5.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox5.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox5.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox5.Location = new System.Drawing.Point(507, 505);
+            this.gunaTextBox5.Location = new System.Drawing.Point(507, 497);
             this.gunaTextBox5.Name = "gunaTextBox5";
             this.gunaTextBox5.PasswordChar = '\0';
             this.gunaTextBox5.SelectedText = "";
@@ -443,7 +442,7 @@ namespace ПП
             // 
             this.gunaLabel12.AutoSize = true;
             this.gunaLabel12.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaLabel12.Location = new System.Drawing.Point(488, 511);
+            this.gunaLabel12.Location = new System.Drawing.Point(488, 503);
             this.gunaLabel12.Name = "gunaLabel12";
             this.gunaLabel12.Size = new System.Drawing.Size(13, 15);
             this.gunaLabel12.TabIndex = 32;
@@ -452,13 +451,13 @@ namespace ПП
             // gunaTextBox6
             // 
             this.gunaTextBox6.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox6.BorderColor = System.Drawing.Color.SeaGreen;
+            this.gunaTextBox6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaTextBox6.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox6.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gunaTextBox6.FocusedBorderColor = System.Drawing.Color.Black;
             this.gunaTextBox6.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox6.Location = new System.Drawing.Point(507, 685);
+            this.gunaTextBox6.Location = new System.Drawing.Point(507, 677);
             this.gunaTextBox6.Name = "gunaTextBox6";
             this.gunaTextBox6.PasswordChar = '\0';
             this.gunaTextBox6.SelectedText = "";
@@ -469,7 +468,7 @@ namespace ПП
             // 
             this.gunaLabel13.AutoSize = true;
             this.gunaLabel13.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaLabel13.Location = new System.Drawing.Point(488, 691);
+            this.gunaLabel13.Location = new System.Drawing.Point(488, 683);
             this.gunaLabel13.Name = "gunaLabel13";
             this.gunaLabel13.Size = new System.Drawing.Size(13, 15);
             this.gunaLabel13.TabIndex = 34;
@@ -479,21 +478,11 @@ namespace ПП
             // 
             this.gunaLabel19.AutoSize = true;
             this.gunaLabel19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gunaLabel19.Location = new System.Drawing.Point(14, 301);
+            this.gunaLabel19.Location = new System.Drawing.Point(14, 312);
             this.gunaLabel19.Name = "gunaLabel19";
-            this.gunaLabel19.Size = new System.Drawing.Size(154, 21);
+            this.gunaLabel19.Size = new System.Drawing.Size(248, 21);
             this.gunaLabel19.TabIndex = 36;
-            this.gunaLabel19.Text = "2. Match the pictures";
-            // 
-            // gunaLabel20
-            // 
-            this.gunaLabel20.AutoSize = true;
-            this.gunaLabel20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gunaLabel20.Location = new System.Drawing.Point(46, 322);
-            this.gunaLabel20.Name = "gunaLabel20";
-            this.gunaLabel20.Size = new System.Drawing.Size(100, 21);
-            this.gunaLabel20.TabIndex = 39;
-            this.gunaLabel20.Text = "to the words.";
+            this.gunaLabel19.Text = "2. Match the pictures to the words.";
             // 
             // gunaButton2
             // 
@@ -509,7 +498,7 @@ namespace ПП
             this.gunaButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton2.Image")));
             this.gunaButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton2.ImageSize = new System.Drawing.Size(40, 40);
-            this.gunaButton2.Location = new System.Drawing.Point(197, 301);
+            this.gunaButton2.Location = new System.Drawing.Point(378, 301);
             this.gunaButton2.Name = "gunaButton2";
             this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.White;
             this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -524,7 +513,7 @@ namespace ПП
             // 
             this.gunaLabel18.AutoSize = true;
             this.gunaLabel18.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.gunaLabel18.Location = new System.Drawing.Point(254, 312);
+            this.gunaLabel18.Location = new System.Drawing.Point(447, 312);
             this.gunaLabel18.Name = "gunaLabel18";
             this.gunaLabel18.Size = new System.Drawing.Size(0, 21);
             this.gunaLabel18.TabIndex = 41;
@@ -562,7 +551,6 @@ namespace ПП
             this.Controls.Add(this.gunaButton3);
             this.Controls.Add(this.gunaLabel18);
             this.Controls.Add(this.gunaButton2);
-            this.Controls.Add(this.gunaLabel20);
             this.Controls.Add(this.gunaLabel19);
             this.Controls.Add(this.gunaTextBox6);
             this.Controls.Add(this.gunaLabel13);
@@ -644,7 +632,6 @@ namespace ПП
         private Guna.UI.WinForms.GunaTextBox gunaTextBox6;
         private Guna.UI.WinForms.GunaLabel gunaLabel13;
         private Guna.UI.WinForms.GunaLabel gunaLabel19;
-        private Guna.UI.WinForms.GunaLabel gunaLabel20;
         private Guna.UI.WinForms.GunaButton gunaButton2;
         private Guna.UI.WinForms.GunaLabel gunaLabel18;
         private Guna.UI.WinForms.GunaButton gunaButton3;

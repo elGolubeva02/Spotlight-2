@@ -78,5 +78,10 @@ namespace ПП
             this.Hide();
             f7.Show();
         }
+
+        private void gunaLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

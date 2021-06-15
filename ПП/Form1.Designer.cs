@@ -149,6 +149,7 @@ namespace ПП
             this.gunaButton4.TabIndex = 4;
             this.gunaButton4.Text = "Module 4";
             this.gunaButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton4.Click += new System.EventHandler(this.gunaButton4_Click);
             // 
             // gunaButton5
             // 
@@ -176,6 +177,7 @@ namespace ПП
             this.gunaButton5.TabIndex = 5;
             this.gunaButton5.Text = "Module 5";
             this.gunaButton5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton5.Click += new System.EventHandler(this.gunaButton5_Click);
             // 
             // gunaRadioButton1
             // 

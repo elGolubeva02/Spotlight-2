@@ -56,5 +56,25 @@ namespace ПП
                 f6.Show();
             }
         }
+
+        private void gunaButton4_Click(object sender, EventArgs e)
+        {
+            if (gunaRadioButton1.Checked)
+            {
+                Form8 f8 = new Form8();
+                this.Hide();
+                f8.Show();
+            }
+        }
+
+        private void gunaButton5_Click(object sender, EventArgs e)
+        {
+            if (gunaRadioButton1.Checked)
+            {
+                Form10 f10 = new Form10();
+                this.Hide();
+                f10.Show();
+            }
+        }
     }
 }
