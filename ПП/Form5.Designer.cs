@@ -83,6 +83,7 @@ namespace ПП
             // gunaLabel7
             // 
             this.gunaLabel7.AutoSize = true;
+            this.gunaLabel7.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel7.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.gunaLabel7.Location = new System.Drawing.Point(447, 23);
             this.gunaLabel7.Name = "gunaLabel7";
@@ -94,29 +95,30 @@ namespace ПП
             this.gunaButton1.AnimationHoverSpeed = 0.07F;
             this.gunaButton1.AnimationSpeed = 0.03F;
             this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton1.BaseColor = System.Drawing.Color.White;
-            this.gunaButton1.BorderColor = System.Drawing.Color.Black;
+            this.gunaButton1.BaseColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.BorderColor = System.Drawing.Color.Transparent;
             this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
             this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.gunaButton1.ForeColor = System.Drawing.Color.White;
+            this.gunaButton1.ForeColor = System.Drawing.Color.Transparent;
             this.gunaButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton1.Image")));
             this.gunaButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton1.ImageSize = new System.Drawing.Size(40, 40);
+            this.gunaButton1.ImageSize = new System.Drawing.Size(30, 40);
             this.gunaButton1.Location = new System.Drawing.Point(378, 12);
             this.gunaButton1.Name = "gunaButton1";
-            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.White;
-            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.OnHoverForeColor = System.Drawing.SystemColors.Window;
+            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.Transparent;
             this.gunaButton1.OnHoverImage = null;
-            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton1.Size = new System.Drawing.Size(40, 40);
+            this.gunaButton1.OnPressedColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.Size = new System.Drawing.Size(30, 40);
             this.gunaButton1.TabIndex = 16;
             this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
             // 
             // gunaLabel1
             // 
             this.gunaLabel1.AutoSize = true;
+            this.gunaLabel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.gunaLabel1.Location = new System.Drawing.Point(14, 23);
             this.gunaLabel1.Name = "gunaLabel1";
@@ -217,6 +219,7 @@ namespace ПП
             // gunaLabel10
             // 
             this.gunaLabel10.AutoSize = true;
+            this.gunaLabel10.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel10.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel10.Location = new System.Drawing.Point(80, 77);
             this.gunaLabel10.Name = "gunaLabel10";
@@ -228,6 +231,7 @@ namespace ПП
             // gunaLabel2
             // 
             this.gunaLabel2.AutoSize = true;
+            this.gunaLabel2.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel2.Location = new System.Drawing.Point(351, 77);
             this.gunaLabel2.Name = "gunaLabel2";
@@ -239,6 +243,7 @@ namespace ПП
             // gunaMediumCheckBox2
             // 
             this.gunaMediumCheckBox2.AllowDrop = true;
+            this.gunaMediumCheckBox2.BackColor = System.Drawing.Color.Transparent;
             this.gunaMediumCheckBox2.BaseColor = System.Drawing.Color.White;
             this.gunaMediumCheckBox2.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaMediumCheckBox2.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
@@ -263,12 +268,14 @@ namespace ПП
             // gunaLabel4
             // 
             this.gunaLabel4.AutoSize = true;
+            this.gunaLabel4.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel4.Location = new System.Drawing.Point(373, 224);
             this.gunaLabel4.Name = "gunaLabel4";
             this.gunaLabel4.Size = new System.Drawing.Size(80, 15);
             this.gunaLabel4.TabIndex = 61;
             this.gunaLabel4.Text = "It\'s chocolate.";
+            this.gunaLabel4.Click += new System.EventHandler(this.gunaLabel4_Click);
             // 
             // gunaLabel5
             // 
@@ -295,6 +302,7 @@ namespace ПП
             // gunaLabel6
             // 
             this.gunaLabel6.AutoSize = true;
+            this.gunaLabel6.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel6.Location = new System.Drawing.Point(373, 429);
             this.gunaLabel6.Name = "gunaLabel6";
@@ -305,6 +313,7 @@ namespace ПП
             // gunaLabel8
             // 
             this.gunaLabel8.AutoSize = true;
+            this.gunaLabel8.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel8.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel8.Location = new System.Drawing.Point(371, 634);
             this.gunaLabel8.Name = "gunaLabel8";
@@ -316,12 +325,14 @@ namespace ПП
             // gunaLabel9
             // 
             this.gunaLabel9.AutoSize = true;
+            this.gunaLabel9.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel9.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel9.Location = new System.Drawing.Point(96, 634);
             this.gunaLabel9.Name = "gunaLabel9";
             this.gunaLabel9.Size = new System.Drawing.Size(51, 15);
             this.gunaLabel9.TabIndex = 66;
             this.gunaLabel9.Text = "It\'s milk.";
+            this.gunaLabel9.Click += new System.EventHandler(this.gunaLabel9_Click);
             // 
             // gunaLabel11
             // 
@@ -336,6 +347,7 @@ namespace ПП
             // gunaLabel12
             // 
             this.gunaLabel12.AutoSize = true;
+            this.gunaLabel12.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel12.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel12.Location = new System.Drawing.Point(357, 282);
             this.gunaLabel12.Name = "gunaLabel12";
@@ -366,6 +378,7 @@ namespace ПП
             // gunaMediumCheckBox4
             // 
             this.gunaMediumCheckBox4.AllowDrop = true;
+            this.gunaMediumCheckBox4.BackColor = System.Drawing.Color.Transparent;
             this.gunaMediumCheckBox4.BaseColor = System.Drawing.Color.White;
             this.gunaMediumCheckBox4.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaMediumCheckBox4.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
@@ -378,6 +391,7 @@ namespace ПП
             // gunaMediumCheckBox5
             // 
             this.gunaMediumCheckBox5.AllowDrop = true;
+            this.gunaMediumCheckBox5.BackColor = System.Drawing.Color.Transparent;
             this.gunaMediumCheckBox5.BaseColor = System.Drawing.Color.White;
             this.gunaMediumCheckBox5.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaMediumCheckBox5.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
@@ -390,6 +404,7 @@ namespace ПП
             // gunaMediumCheckBox6
             // 
             this.gunaMediumCheckBox6.AllowDrop = true;
+            this.gunaMediumCheckBox6.BackColor = System.Drawing.Color.Transparent;
             this.gunaMediumCheckBox6.BaseColor = System.Drawing.Color.White;
             this.gunaMediumCheckBox6.CheckedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaMediumCheckBox6.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
@@ -398,10 +413,12 @@ namespace ПП
             this.gunaMediumCheckBox6.Name = "gunaMediumCheckBox6";
             this.gunaMediumCheckBox6.Size = new System.Drawing.Size(20, 20);
             this.gunaMediumCheckBox6.TabIndex = 73;
+            this.gunaMediumCheckBox6.CheckedChanged += new System.EventHandler(this.gunaMediumCheckBox6_CheckedChanged);
             // 
             // gunaLabel15
             // 
             this.gunaLabel15.AutoSize = true;
+            this.gunaLabel15.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.gunaLabel15.Location = new System.Drawing.Point(236, 684);
             this.gunaLabel15.Name = "gunaLabel15";
@@ -421,7 +438,7 @@ namespace ПП
             this.gunaButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton2.Image")));
             this.gunaButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton2.ImageSize = new System.Drawing.Size(40, 40);
-            this.gunaButton2.Location = new System.Drawing.Point(558, 696);
+            this.gunaButton2.Location = new System.Drawing.Point(558, 704);
             this.gunaButton2.Name = "gunaButton2";
             this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -437,6 +454,7 @@ namespace ПП
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(601, 740);
             this.Controls.Add(this.gunaButton2);
             this.Controls.Add(this.gunaLabel15);
@@ -469,6 +487,7 @@ namespace ПП
             this.Controls.Add(this.gunaMediumCheckBox1);
             this.Name = "Form5";
             this.Text = "Module2";
+            this.Load += new System.EventHandler(this.Form5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox3)).EndInit();

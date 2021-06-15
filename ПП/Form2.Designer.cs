@@ -93,6 +93,7 @@ namespace ПП
             // gunaLabel1
             // 
             this.gunaLabel1.AutoSize = true;
+            this.gunaLabel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.gunaLabel1.Location = new System.Drawing.Point(14, 23);
             this.gunaLabel1.Name = "gunaLabel1";
@@ -164,6 +165,7 @@ namespace ПП
             // gunaLabel5
             // 
             this.gunaLabel5.AutoSize = true;
+            this.gunaLabel5.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel5.Location = new System.Drawing.Point(194, 223);
             this.gunaLabel5.Name = "gunaLabel5";
@@ -174,6 +176,7 @@ namespace ПП
             // gunaLabel6
             // 
             this.gunaLabel6.AutoSize = true;
+            this.gunaLabel6.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel6.Location = new System.Drawing.Point(194, 248);
             this.gunaLabel6.Name = "gunaLabel6";
@@ -184,6 +187,7 @@ namespace ПП
             // 
             // gunaTextBox1
             // 
+            this.gunaTextBox1.BackColor = System.Drawing.Color.Transparent;
             this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
             this.gunaTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
             this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -203,29 +207,30 @@ namespace ПП
             this.gunaButton1.AnimationHoverSpeed = 0.07F;
             this.gunaButton1.AnimationSpeed = 0.03F;
             this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton1.BaseColor = System.Drawing.Color.White;
-            this.gunaButton1.BorderColor = System.Drawing.Color.Black;
+            this.gunaButton1.BaseColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.BorderColor = System.Drawing.Color.Transparent;
             this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
             this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.gunaButton1.ForeColor = System.Drawing.Color.White;
+            this.gunaButton1.ForeColor = System.Drawing.Color.Transparent;
             this.gunaButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton1.Image")));
             this.gunaButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton1.ImageSize = new System.Drawing.Size(40, 40);
+            this.gunaButton1.ImageSize = new System.Drawing.Size(30, 40);
             this.gunaButton1.Location = new System.Drawing.Point(378, 12);
             this.gunaButton1.Name = "gunaButton1";
-            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.White;
-            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.OnHoverForeColor = System.Drawing.SystemColors.Window;
+            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.Transparent;
             this.gunaButton1.OnHoverImage = null;
-            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton1.Size = new System.Drawing.Size(40, 40);
+            this.gunaButton1.OnPressedColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.Size = new System.Drawing.Size(30, 40);
             this.gunaButton1.TabIndex = 10;
             this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
             // 
             // gunaLabel7
             // 
             this.gunaLabel7.AutoSize = true;
+            this.gunaLabel7.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel7.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.gunaLabel7.Location = new System.Drawing.Point(447, 23);
             this.gunaLabel7.Name = "gunaLabel7";
@@ -251,6 +256,7 @@ namespace ПП
             // gunaLabel8
             // 
             this.gunaLabel8.AutoSize = true;
+            this.gunaLabel8.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel8.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel8.Location = new System.Drawing.Point(409, 248);
             this.gunaLabel8.Name = "gunaLabel8";
@@ -261,6 +267,7 @@ namespace ПП
             // gunaLabel9
             // 
             this.gunaLabel9.AutoSize = true;
+            this.gunaLabel9.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel9.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel9.Location = new System.Drawing.Point(409, 223);
             this.gunaLabel9.Name = "gunaLabel9";
@@ -331,6 +338,7 @@ namespace ПП
             // gunaLabel14
             // 
             this.gunaLabel14.AutoSize = true;
+            this.gunaLabel14.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel14.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel14.Location = new System.Drawing.Point(255, 458);
             this.gunaLabel14.Name = "gunaLabel14";
@@ -342,6 +350,7 @@ namespace ПП
             // gunaLabel15
             // 
             this.gunaLabel15.AutoSize = true;
+            this.gunaLabel15.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel15.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel15.Location = new System.Drawing.Point(255, 495);
             this.gunaLabel15.Name = "gunaLabel15";
@@ -352,6 +361,7 @@ namespace ПП
             // gunaLabel16
             // 
             this.gunaLabel16.AutoSize = true;
+            this.gunaLabel16.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel16.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel16.Location = new System.Drawing.Point(255, 531);
             this.gunaLabel16.Name = "gunaLabel16";
@@ -363,6 +373,7 @@ namespace ПП
             // gunaLabel17
             // 
             this.gunaLabel17.AutoSize = true;
+            this.gunaLabel17.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel17.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel17.Location = new System.Drawing.Point(255, 569);
             this.gunaLabel17.Name = "gunaLabel17";
@@ -441,6 +452,7 @@ namespace ПП
             // gunaLabel12
             // 
             this.gunaLabel12.AutoSize = true;
+            this.gunaLabel12.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel12.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel12.Location = new System.Drawing.Point(488, 503);
             this.gunaLabel12.Name = "gunaLabel12";
@@ -467,6 +479,7 @@ namespace ПП
             // gunaLabel13
             // 
             this.gunaLabel13.AutoSize = true;
+            this.gunaLabel13.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel13.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaLabel13.Location = new System.Drawing.Point(488, 683);
             this.gunaLabel13.Name = "gunaLabel13";
@@ -489,29 +502,30 @@ namespace ПП
             this.gunaButton2.AnimationHoverSpeed = 0.07F;
             this.gunaButton2.AnimationSpeed = 0.03F;
             this.gunaButton2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton2.BaseColor = System.Drawing.Color.White;
-            this.gunaButton2.BorderColor = System.Drawing.Color.Black;
+            this.gunaButton2.BaseColor = System.Drawing.Color.Transparent;
+            this.gunaButton2.BorderColor = System.Drawing.Color.Transparent;
             this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton2.FocusedColor = System.Drawing.Color.Empty;
             this.gunaButton2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.gunaButton2.ForeColor = System.Drawing.Color.White;
+            this.gunaButton2.ForeColor = System.Drawing.Color.Transparent;
             this.gunaButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton2.Image")));
             this.gunaButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton2.ImageSize = new System.Drawing.Size(40, 40);
+            this.gunaButton2.ImageSize = new System.Drawing.Size(30, 40);
             this.gunaButton2.Location = new System.Drawing.Point(378, 301);
             this.gunaButton2.Name = "gunaButton2";
-            this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.White;
-            this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton2.OnHoverForeColor = System.Drawing.SystemColors.Window;
+            this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.Transparent;
+            this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Transparent;
+            this.gunaButton2.OnHoverForeColor = System.Drawing.Color.Transparent;
             this.gunaButton2.OnHoverImage = null;
-            this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton2.Size = new System.Drawing.Size(40, 40);
+            this.gunaButton2.OnPressedColor = System.Drawing.Color.Transparent;
+            this.gunaButton2.Size = new System.Drawing.Size(30, 40);
             this.gunaButton2.TabIndex = 40;
             this.gunaButton2.Click += new System.EventHandler(this.gunaButton2_Click);
             // 
             // gunaLabel18
             // 
             this.gunaLabel18.AutoSize = true;
+            this.gunaLabel18.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel18.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.gunaLabel18.Location = new System.Drawing.Point(447, 312);
             this.gunaLabel18.Name = "gunaLabel18";
@@ -547,6 +561,7 @@ namespace ПП
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(601, 740);
             this.Controls.Add(this.gunaButton3);
             this.Controls.Add(this.gunaLabel18);

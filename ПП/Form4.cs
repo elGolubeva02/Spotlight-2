@@ -45,5 +45,10 @@ namespace ПП
             this.Hide();
             f5.Show();
         }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

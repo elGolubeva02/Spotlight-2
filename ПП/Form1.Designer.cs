@@ -194,7 +194,7 @@ namespace ПП
             // 
             // gunaRadioButton2
             // 
-            this.gunaRadioButton2.BackColor = System.Drawing.Color.White;
+            this.gunaRadioButton2.BackColor = System.Drawing.Color.Transparent;
             this.gunaRadioButton2.BaseColor = System.Drawing.SystemColors.Control;
             this.gunaRadioButton2.CheckedOffColor = System.Drawing.Color.Gray;
             this.gunaRadioButton2.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));

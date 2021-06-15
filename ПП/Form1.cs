@@ -15,6 +15,7 @@ namespace ПП
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void gunaTextBox1_TextChanged(object sender, EventArgs e)

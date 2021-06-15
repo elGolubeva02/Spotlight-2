@@ -66,5 +66,25 @@ namespace ПП
             { gunaLabel7.Text = "You are right!"; gunaLabel15.Text = "The eng of Module2"; }
             else gunaLabel7.Text = "You are not right!";
         }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaMediumCheckBox6_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaLabel9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
