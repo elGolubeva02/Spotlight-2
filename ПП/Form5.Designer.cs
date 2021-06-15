@@ -1,0 +1,515 @@
+﻿
+namespace ПП
+{
+    partial class Form5
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
+            this.gunaMediumCheckBox1 = new Guna.UI.WinForms.GunaMediumCheckBox();
+            this.gunaLabel7 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
+            this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
+            this.gunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
+            this.gunaPictureBox3 = new Guna.UI.WinForms.GunaPictureBox();
+            this.gunaPictureBox4 = new Guna.UI.WinForms.GunaPictureBox();
+            this.gunaPictureBox5 = new Guna.UI.WinForms.GunaPictureBox();
+            this.gunaPictureBox6 = new Guna.UI.WinForms.GunaPictureBox();
+            this.gunaLabel10 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaMediumCheckBox2 = new Guna.UI.WinForms.GunaMediumCheckBox();
+            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaMediumCheckBox3 = new Guna.UI.WinForms.GunaMediumCheckBox();
+            this.gunaLabel6 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel8 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel9 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel11 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel12 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel13 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel14 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaMediumCheckBox4 = new Guna.UI.WinForms.GunaMediumCheckBox();
+            this.gunaMediumCheckBox5 = new Guna.UI.WinForms.GunaMediumCheckBox();
+            this.gunaMediumCheckBox6 = new Guna.UI.WinForms.GunaMediumCheckBox();
+            this.gunaLabel15 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox6)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // gunaMediumCheckBox1
+            // 
+            this.gunaMediumCheckBox1.AllowDrop = true;
+            this.gunaMediumCheckBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox1.CheckedOffColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox1.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox1.FillColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox1.Location = new System.Drawing.Point(205, 223);
+            this.gunaMediumCheckBox1.Name = "gunaMediumCheckBox1";
+            this.gunaMediumCheckBox1.Size = new System.Drawing.Size(20, 20);
+            this.gunaMediumCheckBox1.TabIndex = 0;
+            this.gunaMediumCheckBox1.CheckedChanged += new System.EventHandler(this.gunaMediumCheckBox1_CheckedChanged);
+            // 
+            // gunaLabel7
+            // 
+            this.gunaLabel7.AutoSize = true;
+            this.gunaLabel7.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.gunaLabel7.Location = new System.Drawing.Point(252, 24);
+            this.gunaLabel7.Name = "gunaLabel7";
+            this.gunaLabel7.Size = new System.Drawing.Size(0, 21);
+            this.gunaLabel7.TabIndex = 17;
+            // 
+            // gunaButton1
+            // 
+            this.gunaButton1.AnimationHoverSpeed = 0.07F;
+            this.gunaButton1.AnimationSpeed = 0.03F;
+            this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.BaseColor = System.Drawing.Color.White;
+            this.gunaButton1.BorderColor = System.Drawing.Color.Black;
+            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.gunaButton1.ForeColor = System.Drawing.Color.White;
+            this.gunaButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton1.Image")));
+            this.gunaButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton1.ImageSize = new System.Drawing.Size(40, 40);
+            this.gunaButton1.Location = new System.Drawing.Point(195, 14);
+            this.gunaButton1.Name = "gunaButton1";
+            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.White;
+            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButton1.OnHoverForeColor = System.Drawing.SystemColors.Window;
+            this.gunaButton1.OnHoverImage = null;
+            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton1.Size = new System.Drawing.Size(40, 40);
+            this.gunaButton1.TabIndex = 16;
+            this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
+            // 
+            // gunaLabel1
+            // 
+            this.gunaLabel1.AutoSize = true;
+            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.gunaLabel1.Location = new System.Drawing.Point(12, 25);
+            this.gunaLabel1.Name = "gunaLabel1";
+            this.gunaLabel1.Size = new System.Drawing.Size(161, 21);
+            this.gunaLabel1.TabIndex = 15;
+            this.gunaLabel1.Text = "3. Read and put a tick.";
+            // 
+            // gunaPictureBox1
+            // 
+            this.gunaPictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaPictureBox1.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox1.BackgroundImage")));
+            this.gunaPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox1.Location = new System.Drawing.Point(99, 81);
+            this.gunaPictureBox1.Name = "gunaPictureBox1";
+            this.gunaPictureBox1.Size = new System.Drawing.Size(126, 126);
+            this.gunaPictureBox1.TabIndex = 43;
+            this.gunaPictureBox1.TabStop = false;
+            // 
+            // gunaPictureBox2
+            // 
+            this.gunaPictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaPictureBox2.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox2.BackgroundImage")));
+            this.gunaPictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.gunaPictureBox2.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox2.Location = new System.Drawing.Point(376, 81);
+            this.gunaPictureBox2.Name = "gunaPictureBox2";
+            this.gunaPictureBox2.Size = new System.Drawing.Size(126, 126);
+            this.gunaPictureBox2.TabIndex = 44;
+            this.gunaPictureBox2.TabStop = false;
+            // 
+            // gunaPictureBox3
+            // 
+            this.gunaPictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaPictureBox3.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox3.BackgroundImage")));
+            this.gunaPictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.gunaPictureBox3.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox3.Location = new System.Drawing.Point(99, 286);
+            this.gunaPictureBox3.Name = "gunaPictureBox3";
+            this.gunaPictureBox3.Size = new System.Drawing.Size(126, 126);
+            this.gunaPictureBox3.TabIndex = 45;
+            this.gunaPictureBox3.TabStop = false;
+            // 
+            // gunaPictureBox4
+            // 
+            this.gunaPictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaPictureBox4.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox4.BackgroundImage")));
+            this.gunaPictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.gunaPictureBox4.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox4.Location = new System.Drawing.Point(376, 286);
+            this.gunaPictureBox4.Name = "gunaPictureBox4";
+            this.gunaPictureBox4.Size = new System.Drawing.Size(126, 126);
+            this.gunaPictureBox4.TabIndex = 46;
+            this.gunaPictureBox4.TabStop = false;
+            // 
+            // gunaPictureBox5
+            // 
+            this.gunaPictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaPictureBox5.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox5.BackgroundImage")));
+            this.gunaPictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.gunaPictureBox5.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox5.Location = new System.Drawing.Point(99, 491);
+            this.gunaPictureBox5.Name = "gunaPictureBox5";
+            this.gunaPictureBox5.Size = new System.Drawing.Size(126, 126);
+            this.gunaPictureBox5.TabIndex = 47;
+            this.gunaPictureBox5.TabStop = false;
+            // 
+            // gunaPictureBox6
+            // 
+            this.gunaPictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaPictureBox6.BackColor = System.Drawing.Color.SeaGreen;
+            this.gunaPictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox6.BackgroundImage")));
+            this.gunaPictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.gunaPictureBox6.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox6.Location = new System.Drawing.Point(376, 491);
+            this.gunaPictureBox6.Name = "gunaPictureBox6";
+            this.gunaPictureBox6.Size = new System.Drawing.Size(126, 126);
+            this.gunaPictureBox6.TabIndex = 48;
+            this.gunaPictureBox6.TabStop = false;
+            // 
+            // gunaLabel10
+            // 
+            this.gunaLabel10.AutoSize = true;
+            this.gunaLabel10.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel10.Location = new System.Drawing.Point(80, 81);
+            this.gunaLabel10.Name = "gunaLabel10";
+            this.gunaLabel10.Size = new System.Drawing.Size(13, 15);
+            this.gunaLabel10.TabIndex = 57;
+            this.gunaLabel10.Text = "0";
+            this.gunaLabel10.Click += new System.EventHandler(this.gunaLabel10_Click);
+            // 
+            // gunaLabel2
+            // 
+            this.gunaLabel2.AutoSize = true;
+            this.gunaLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel2.Location = new System.Drawing.Point(351, 81);
+            this.gunaLabel2.Name = "gunaLabel2";
+            this.gunaLabel2.Size = new System.Drawing.Size(19, 15);
+            this.gunaLabel2.TabIndex = 58;
+            this.gunaLabel2.Text = "00";
+            this.gunaLabel2.Click += new System.EventHandler(this.gunaLabel2_Click);
+            // 
+            // gunaMediumCheckBox2
+            // 
+            this.gunaMediumCheckBox2.AllowDrop = true;
+            this.gunaMediumCheckBox2.BaseColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox2.CheckedOffColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox2.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox2.FillColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox2.Location = new System.Drawing.Point(482, 223);
+            this.gunaMediumCheckBox2.Name = "gunaMediumCheckBox2";
+            this.gunaMediumCheckBox2.Size = new System.Drawing.Size(20, 20);
+            this.gunaMediumCheckBox2.TabIndex = 59;
+            this.gunaMediumCheckBox2.CheckedChanged += new System.EventHandler(this.gunaMediumCheckBox2_CheckedChanged);
+            // 
+            // gunaLabel3
+            // 
+            this.gunaLabel3.AutoSize = true;
+            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel3.Location = new System.Drawing.Point(96, 228);
+            this.gunaLabel3.Name = "gunaLabel3";
+            this.gunaLabel3.Size = new System.Drawing.Size(88, 15);
+            this.gunaLabel3.TabIndex = 60;
+            this.gunaLabel3.Text = "They’re apples. ";
+            this.gunaLabel3.Click += new System.EventHandler(this.gunaLabel3_Click);
+            // 
+            // gunaLabel4
+            // 
+            this.gunaLabel4.AutoSize = true;
+            this.gunaLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel4.Location = new System.Drawing.Point(373, 228);
+            this.gunaLabel4.Name = "gunaLabel4";
+            this.gunaLabel4.Size = new System.Drawing.Size(80, 15);
+            this.gunaLabel4.TabIndex = 61;
+            this.gunaLabel4.Text = "It\'s chocolate.";
+            // 
+            // gunaLabel5
+            // 
+            this.gunaLabel5.AutoSize = true;
+            this.gunaLabel5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel5.Location = new System.Drawing.Point(96, 433);
+            this.gunaLabel5.Name = "gunaLabel5";
+            this.gunaLabel5.Size = new System.Drawing.Size(85, 15);
+            this.gunaLabel5.TabIndex = 62;
+            this.gunaLabel5.Text = "They’re apples.";
+            // 
+            // gunaMediumCheckBox3
+            // 
+            this.gunaMediumCheckBox3.AllowDrop = true;
+            this.gunaMediumCheckBox3.BaseColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox3.CheckedOffColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox3.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox3.FillColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox3.Location = new System.Drawing.Point(205, 427);
+            this.gunaMediumCheckBox3.Name = "gunaMediumCheckBox3";
+            this.gunaMediumCheckBox3.Size = new System.Drawing.Size(20, 20);
+            this.gunaMediumCheckBox3.TabIndex = 63;
+            // 
+            // gunaLabel6
+            // 
+            this.gunaLabel6.AutoSize = true;
+            this.gunaLabel6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel6.Location = new System.Drawing.Point(373, 433);
+            this.gunaLabel6.Name = "gunaLabel6";
+            this.gunaLabel6.Size = new System.Drawing.Size(82, 15);
+            this.gunaLabel6.TabIndex = 64;
+            this.gunaLabel6.Text = "They’re chips. ";
+            // 
+            // gunaLabel8
+            // 
+            this.gunaLabel8.AutoSize = true;
+            this.gunaLabel8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel8.Location = new System.Drawing.Point(371, 638);
+            this.gunaLabel8.Name = "gunaLabel8";
+            this.gunaLabel8.Size = new System.Drawing.Size(112, 15);
+            this.gunaLabel8.TabIndex = 65;
+            this.gunaLabel8.Text = "They’re sandwiches.";
+            this.gunaLabel8.Click += new System.EventHandler(this.gunaLabel8_Click);
+            // 
+            // gunaLabel9
+            // 
+            this.gunaLabel9.AutoSize = true;
+            this.gunaLabel9.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel9.Location = new System.Drawing.Point(96, 638);
+            this.gunaLabel9.Name = "gunaLabel9";
+            this.gunaLabel9.Size = new System.Drawing.Size(51, 15);
+            this.gunaLabel9.TabIndex = 66;
+            this.gunaLabel9.Text = "It\'s milk.";
+            // 
+            // gunaLabel11
+            // 
+            this.gunaLabel11.AutoSize = true;
+            this.gunaLabel11.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel11.Location = new System.Drawing.Point(80, 286);
+            this.gunaLabel11.Name = "gunaLabel11";
+            this.gunaLabel11.Size = new System.Drawing.Size(13, 15);
+            this.gunaLabel11.TabIndex = 67;
+            this.gunaLabel11.Text = "1";
+            // 
+            // gunaLabel12
+            // 
+            this.gunaLabel12.AutoSize = true;
+            this.gunaLabel12.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel12.Location = new System.Drawing.Point(357, 286);
+            this.gunaLabel12.Name = "gunaLabel12";
+            this.gunaLabel12.Size = new System.Drawing.Size(13, 15);
+            this.gunaLabel12.TabIndex = 68;
+            this.gunaLabel12.Text = "2";
+            // 
+            // gunaLabel13
+            // 
+            this.gunaLabel13.AutoSize = true;
+            this.gunaLabel13.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel13.Location = new System.Drawing.Point(80, 491);
+            this.gunaLabel13.Name = "gunaLabel13";
+            this.gunaLabel13.Size = new System.Drawing.Size(13, 15);
+            this.gunaLabel13.TabIndex = 69;
+            this.gunaLabel13.Text = "3";
+            // 
+            // gunaLabel14
+            // 
+            this.gunaLabel14.AutoSize = true;
+            this.gunaLabel14.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel14.Location = new System.Drawing.Point(357, 491);
+            this.gunaLabel14.Name = "gunaLabel14";
+            this.gunaLabel14.Size = new System.Drawing.Size(13, 15);
+            this.gunaLabel14.TabIndex = 70;
+            this.gunaLabel14.Text = "4";
+            // 
+            // gunaMediumCheckBox4
+            // 
+            this.gunaMediumCheckBox4.AllowDrop = true;
+            this.gunaMediumCheckBox4.BaseColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox4.CheckedOffColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox4.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox4.FillColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox4.Location = new System.Drawing.Point(482, 428);
+            this.gunaMediumCheckBox4.Name = "gunaMediumCheckBox4";
+            this.gunaMediumCheckBox4.Size = new System.Drawing.Size(20, 20);
+            this.gunaMediumCheckBox4.TabIndex = 71;
+            // 
+            // gunaMediumCheckBox5
+            // 
+            this.gunaMediumCheckBox5.AllowDrop = true;
+            this.gunaMediumCheckBox5.BaseColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox5.CheckedOffColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox5.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox5.FillColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox5.Location = new System.Drawing.Point(483, 633);
+            this.gunaMediumCheckBox5.Name = "gunaMediumCheckBox5";
+            this.gunaMediumCheckBox5.Size = new System.Drawing.Size(20, 20);
+            this.gunaMediumCheckBox5.TabIndex = 72;
+            // 
+            // gunaMediumCheckBox6
+            // 
+            this.gunaMediumCheckBox6.AllowDrop = true;
+            this.gunaMediumCheckBox6.BaseColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox6.CheckedOffColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox6.CheckedOnColor = System.Drawing.Color.SeaGreen;
+            this.gunaMediumCheckBox6.FillColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox6.Location = new System.Drawing.Point(205, 633);
+            this.gunaMediumCheckBox6.Name = "gunaMediumCheckBox6";
+            this.gunaMediumCheckBox6.Size = new System.Drawing.Size(20, 20);
+            this.gunaMediumCheckBox6.TabIndex = 73;
+            // 
+            // gunaLabel15
+            // 
+            this.gunaLabel15.AutoSize = true;
+            this.gunaLabel15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.gunaLabel15.Location = new System.Drawing.Point(231, 692);
+            this.gunaLabel15.Name = "gunaLabel15";
+            this.gunaLabel15.Size = new System.Drawing.Size(0, 21);
+            this.gunaLabel15.TabIndex = 74;
+            // 
+            // gunaButton2
+            // 
+            this.gunaButton2.AnimationHoverSpeed = 0.07F;
+            this.gunaButton2.AnimationSpeed = 0.03F;
+            this.gunaButton2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaButton2.BorderColor = System.Drawing.Color.Black;
+            this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton2.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaButton2.ForeColor = System.Drawing.Color.White;
+            this.gunaButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton2.Image")));
+            this.gunaButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton2.ImageSize = new System.Drawing.Size(40, 40);
+            this.gunaButton2.Location = new System.Drawing.Point(558, 696);
+            this.gunaButton2.Name = "gunaButton2";
+            this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButton2.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton2.OnHoverImage = null;
+            this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton2.Size = new System.Drawing.Size(40, 40);
+            this.gunaButton2.TabIndex = 75;
+            this.gunaButton2.Click += new System.EventHandler(this.gunaButton2_Click);
+            // 
+            // Form5
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(601, 740);
+            this.Controls.Add(this.gunaButton2);
+            this.Controls.Add(this.gunaLabel15);
+            this.Controls.Add(this.gunaMediumCheckBox6);
+            this.Controls.Add(this.gunaMediumCheckBox5);
+            this.Controls.Add(this.gunaMediumCheckBox4);
+            this.Controls.Add(this.gunaLabel14);
+            this.Controls.Add(this.gunaLabel13);
+            this.Controls.Add(this.gunaLabel12);
+            this.Controls.Add(this.gunaLabel11);
+            this.Controls.Add(this.gunaLabel9);
+            this.Controls.Add(this.gunaLabel8);
+            this.Controls.Add(this.gunaLabel6);
+            this.Controls.Add(this.gunaMediumCheckBox3);
+            this.Controls.Add(this.gunaLabel5);
+            this.Controls.Add(this.gunaLabel4);
+            this.Controls.Add(this.gunaLabel3);
+            this.Controls.Add(this.gunaMediumCheckBox2);
+            this.Controls.Add(this.gunaLabel2);
+            this.Controls.Add(this.gunaLabel10);
+            this.Controls.Add(this.gunaPictureBox6);
+            this.Controls.Add(this.gunaPictureBox5);
+            this.Controls.Add(this.gunaPictureBox4);
+            this.Controls.Add(this.gunaPictureBox3);
+            this.Controls.Add(this.gunaPictureBox2);
+            this.Controls.Add(this.gunaPictureBox1);
+            this.Controls.Add(this.gunaLabel7);
+            this.Controls.Add(this.gunaButton1);
+            this.Controls.Add(this.gunaLabel1);
+            this.Controls.Add(this.gunaMediumCheckBox1);
+            this.Name = "Form5";
+            this.Text = "Module2";
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox6)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private Guna.UI.WinForms.GunaMediumCheckBox gunaMediumCheckBox1;
+        private Guna.UI.WinForms.GunaLabel gunaLabel7;
+        private Guna.UI.WinForms.GunaButton gunaButton1;
+        private Guna.UI.WinForms.GunaLabel gunaLabel1;
+        private Guna.UI.WinForms.GunaPictureBox gunaPictureBox1;
+        private Guna.UI.WinForms.GunaPictureBox gunaPictureBox2;
+        private Guna.UI.WinForms.GunaPictureBox gunaPictureBox3;
+        private Guna.UI.WinForms.GunaPictureBox gunaPictureBox4;
+        private Guna.UI.WinForms.GunaPictureBox gunaPictureBox5;
+        private Guna.UI.WinForms.GunaPictureBox gunaPictureBox6;
+        private Guna.UI.WinForms.GunaLabel gunaLabel10;
+        private Guna.UI.WinForms.GunaLabel gunaLabel2;
+        private Guna.UI.WinForms.GunaMediumCheckBox gunaMediumCheckBox2;
+        private Guna.UI.WinForms.GunaLabel gunaLabel3;
+        private Guna.UI.WinForms.GunaLabel gunaLabel4;
+        private Guna.UI.WinForms.GunaLabel gunaLabel5;
+        private Guna.UI.WinForms.GunaMediumCheckBox gunaMediumCheckBox3;
+        private Guna.UI.WinForms.GunaLabel gunaLabel6;
+        private Guna.UI.WinForms.GunaLabel gunaLabel8;
+        private Guna.UI.WinForms.GunaLabel gunaLabel9;
+        private Guna.UI.WinForms.GunaLabel gunaLabel11;
+        private Guna.UI.WinForms.GunaLabel gunaLabel12;
+        private Guna.UI.WinForms.GunaLabel gunaLabel13;
+        private Guna.UI.WinForms.GunaLabel gunaLabel14;
+        private Guna.UI.WinForms.GunaMediumCheckBox gunaMediumCheckBox4;
+        private Guna.UI.WinForms.GunaMediumCheckBox gunaMediumCheckBox5;
+        private Guna.UI.WinForms.GunaMediumCheckBox gunaMediumCheckBox6;
+        private Guna.UI.WinForms.GunaLabel gunaLabel15;
+        private Guna.UI.WinForms.GunaButton gunaButton2;
+    }
+}
