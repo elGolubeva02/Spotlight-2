@@ -4,12 +4,15 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
+using System.IO;
 
 namespace ПП
 {
     public class DB
     {
         private static string ProjectLocation = Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory()));
-        public static string ConnStr = ("Provider=Microsoft.Jet.OLEDB.4.0;Data Source = " + ProjectLocation + "\\" + "Database1.mdb");
+        public static string ConnStr = ("PROVIDER=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|Programm.mdb");
+            //("Provider=Microsoft.Jet.OLEDB.4.0;Data Source = " + ProjectLocation + "\\" + "Programm.mdb");
     }
 }

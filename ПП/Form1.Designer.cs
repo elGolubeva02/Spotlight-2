@@ -204,6 +204,7 @@ namespace ПП
             this.gunaRadioButton2.Size = new System.Drawing.Size(164, 20);
             this.gunaRadioButton2.TabIndex = 7;
             this.gunaRadioButton2.Text = "Самостоятельная работа";
+            this.gunaRadioButton2.CheckedChanged += new System.EventHandler(this.gunaRadioButton2_CheckedChanged);
             // 
             // Form1
             // 
