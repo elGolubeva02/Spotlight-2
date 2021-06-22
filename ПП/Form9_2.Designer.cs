@@ -333,7 +333,7 @@ namespace ПП
             this.gunaButton2.BaseColor = System.Drawing.Color.Transparent;
             this.gunaButton2.BorderColor = System.Drawing.Color.Transparent;
             this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton2.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButton2.FocusedColor = System.Drawing.Color.Black;
             this.gunaButton2.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.gunaButton2.ForeColor = System.Drawing.Color.Black;
             this.gunaButton2.Image = null;
@@ -342,8 +342,8 @@ namespace ПП
             this.gunaButton2.Location = new System.Drawing.Point(236, 613);
             this.gunaButton2.Name = "gunaButton2";
             this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.Transparent;
-            this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Transparent;
-            this.gunaButton2.OnHoverForeColor = System.Drawing.Color.Transparent;
+            this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButton2.OnHoverForeColor = System.Drawing.Color.Black;
             this.gunaButton2.OnHoverImage = null;
             this.gunaButton2.OnPressedColor = System.Drawing.Color.Transparent;
             this.gunaButton2.Size = new System.Drawing.Size(125, 40);

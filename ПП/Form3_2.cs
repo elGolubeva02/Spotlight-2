@@ -12,9 +12,11 @@ namespace ПП
 {
     public partial class Form3_2 : Form
     {
+        Query controller;
         public Form3_2()
         {
             InitializeComponent();
+            controller = new Query(DB.ConnStr);
         }
 
         private void gunaButton1_Click(object sender, EventArgs e)
@@ -27,13 +29,14 @@ namespace ПП
                (gunaTextBox12.Text == "c") && (gunaTextBox10.Text == "4"))
                 z31 = true;
             else z31 = false ;
+            controller.Modul1(CheckIn.KodY,Form2_2.z11, Form2_2.z21, z31);
         }
 
         private void gunaButton2_Click(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
+            Form12 f12 = new Form12();
             this.Hide();
-            f1.Show();
+            f12.Show();
         }
     }
 }

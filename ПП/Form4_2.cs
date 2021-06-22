@@ -12,14 +12,16 @@ namespace ПП
 {
     public partial class Form4_2 : Form
     {
+        Query controller;
+        public static bool z12, z22;
         public Form4_2()
         {
             InitializeComponent();
+            controller = new Query(DB.ConnStr);
         }
 
         private void gunaButton3_Click(object sender, EventArgs e)
         {
-            bool z12, z22;
             if ((gunaTextBox5.Text == "1") && (gunaTextBox3.Text == "2") &&
                (gunaTextBox4.Text == "3") && (gunaTextBox7.Text == "4") &&
                (gunaTextBox6.Text == "5") && (gunaTextBox12.Text == "6") &&

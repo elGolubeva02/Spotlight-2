@@ -12,14 +12,20 @@ namespace ПП
 {
     public partial class Form6_2 : Form
     {
+        public static bool z13;
+        Query controller;
         public Form6_2()
         {
             InitializeComponent();
+            controller = new Query(DB.ConnStr);
+            gunaMediumCheckBox2.Checked = true;
+            gunaMediumCheckBox2.Enabled = false;
+            gunaMediumCheckBox1.Checked = false;
+            gunaMediumCheckBox1.Enabled = false;
         }
 
         private void gunaButton3_Click(object sender, EventArgs e)
         {
-            bool z13;
             if ((gunaMediumCheckBox3.Checked == true) && (gunaMediumCheckBox4.Checked == true)
                &&
                (gunaMediumCheckBox5.Checked == true) && (gunaMediumCheckBox6.Checked == false)

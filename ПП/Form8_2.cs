@@ -12,14 +12,24 @@ namespace ПП
 {
     public partial class Form8_2 : Form
     {
+        Query controller;
+        public static bool z14, z24;
         public Form8_2()
         {
             InitializeComponent();
+            controller = new Query(DB.ConnStr);
+            gunaTextBox3.Text = "e";
+            gunaTextBox3.Enabled = false;
+            gunaTextBox4.Text = "d";
+            gunaTextBox4.Enabled = false;
+            gunaTextBox7.Text = "e";
+            gunaTextBox7.Enabled = false;
+            gunaTextBox9.Text = "r";
+            gunaTextBox9.Enabled = false;
         }
 
         private void gunaButton3_Click(object sender, EventArgs e)
         {
-            bool z14, z24;
             if ((gunaTextBox1.Text == "on") && (gunaTextBox2.Text == "under")
              ) z14 = true;
             else z14 = false;
