@@ -30,7 +30,6 @@ namespace ПП
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3_2));
-            this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
             this.gunaLabel22 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel21 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel20 = new Guna.UI.WinForms.GunaLabel();
@@ -84,30 +83,6 @@ namespace ПП
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // gunaButton2
-            // 
-            this.gunaButton2.AnimationHoverSpeed = 0.07F;
-            this.gunaButton2.AnimationSpeed = 0.03F;
-            this.gunaButton2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton2.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton2.ForeColor = System.Drawing.Color.White;
-            this.gunaButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton2.Image")));
-            this.gunaButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton2.ImageSize = new System.Drawing.Size(40, 40);
-            this.gunaButton2.Location = new System.Drawing.Point(558, 704);
-            this.gunaButton2.Name = "gunaButton2";
-            this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton2.OnHoverImage = null;
-            this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton2.Size = new System.Drawing.Size(40, 40);
-            this.gunaButton2.TabIndex = 116;
-            this.gunaButton2.Click += new System.EventHandler(this.gunaButton2_Click);
             // 
             // gunaLabel22
             // 
@@ -651,7 +626,6 @@ namespace ПП
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(601, 740);
             this.Controls.Add(this.gunaButton1);
-            this.Controls.Add(this.gunaButton2);
             this.Controls.Add(this.gunaLabel22);
             this.Controls.Add(this.gunaLabel21);
             this.Controls.Add(this.gunaLabel20);
@@ -711,7 +685,6 @@ namespace ПП
         }
 
         #endregion
-        private Guna.UI.WinForms.GunaButton gunaButton2;
         private Guna.UI.WinForms.GunaLabel gunaLabel22;
         private Guna.UI.WinForms.GunaLabel gunaLabel21;
         private Guna.UI.WinForms.GunaLabel gunaLabel20;

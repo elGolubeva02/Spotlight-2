@@ -191,6 +191,36 @@
     <Compile Include="Form9_2.Designer.cs">
       <DependentUpon>Form9_2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mark.Designer.cs">
+      <DependentUpon>Mark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mark2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mark2.Designer.cs">
+      <DependentUpon>Mark2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mark3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mark3.Designer.cs">
+      <DependentUpon>Mark3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mark4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mark4.Designer.cs">
+      <DependentUpon>Mark4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mark5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mark5.Designer.cs">
+      <DependentUpon>Mark5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Query.cs" />
@@ -262,6 +292,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form9_2.resx">
       <DependentUpon>Form9_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mark.resx">
+      <DependentUpon>Mark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mark2.resx">
+      <DependentUpon>Mark2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mark3.resx">
+      <DependentUpon>Mark3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mark4.resx">
+      <DependentUpon>Mark4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mark5.resx">
+      <DependentUpon>Mark5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

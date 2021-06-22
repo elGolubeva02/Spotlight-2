@@ -30,7 +30,6 @@ namespace ПП
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form7_2));
-            this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
             this.gunaTextBox6 = new Guna.UI.WinForms.GunaTextBox();
             this.gunaTextBox8 = new Guna.UI.WinForms.GunaTextBox();
             this.gunaTextBox5 = new Guna.UI.WinForms.GunaTextBox();
@@ -61,30 +60,6 @@ namespace ПП
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // gunaButton3
-            // 
-            this.gunaButton3.AnimationHoverSpeed = 0.07F;
-            this.gunaButton3.AnimationSpeed = 0.03F;
-            this.gunaButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaButton3.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton3.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton3.ForeColor = System.Drawing.Color.White;
-            this.gunaButton3.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton3.Image")));
-            this.gunaButton3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton3.ImageSize = new System.Drawing.Size(40, 40);
-            this.gunaButton3.Location = new System.Drawing.Point(558, 704);
-            this.gunaButton3.Name = "gunaButton3";
-            this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton3.OnHoverImage = null;
-            this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton3.Size = new System.Drawing.Size(40, 40);
-            this.gunaButton3.TabIndex = 217;
-            this.gunaButton3.Click += new System.EventHandler(this.gunaButton3_Click);
             // 
             // gunaTextBox6
             // 
@@ -428,7 +403,6 @@ namespace ПП
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(601, 740);
-            this.Controls.Add(this.gunaButton3);
             this.Controls.Add(this.gunaTextBox6);
             this.Controls.Add(this.gunaTextBox8);
             this.Controls.Add(this.gunaTextBox5);
@@ -466,8 +440,6 @@ namespace ПП
         }
 
         #endregion
-
-        private Guna.UI.WinForms.GunaButton gunaButton3;
         private Guna.UI.WinForms.GunaTextBox gunaTextBox6;
         private Guna.UI.WinForms.GunaTextBox gunaTextBox8;
         private Guna.UI.WinForms.GunaTextBox gunaTextBox5;

@@ -12,6 +12,8 @@ namespace ПП
 {
     public partial class Form3_2 : Form
     {
+        public static bool z31;
+        public static int kol = 0;
         Query controller;
         public Form3_2()
         {
@@ -21,7 +23,6 @@ namespace ПП
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            bool z31;
             if ((gunaTextBox5.Text == "b") && (gunaTextBox4.Text == "5") &&
                (gunaTextBox3.Text == "a") && (gunaTextBox6.Text == "3") &&
                (gunaTextBox8.Text == "e") && (gunaTextBox2.Text == "2") &&
@@ -30,13 +31,17 @@ namespace ПП
                 z31 = true;
             else z31 = false ;
             controller.Modul1(CheckIn.KodY,Form2_2.z11, Form2_2.z21, z31);
+            if (Form2_2.z11 == true) kol = kol + 1;
+            if (Form2_2.z21 == true) kol = kol + 1;
+            if (z31 == true) kol = kol + 1;
+            Mark m1 = new Mark();
+            this.Hide();
+            m1.Show();
         }
 
         private void gunaButton2_Click(object sender, EventArgs e)
         {
-            Form12 f12 = new Form12();
-            this.Hide();
-            f12.Show();
+
         }
     }
 }

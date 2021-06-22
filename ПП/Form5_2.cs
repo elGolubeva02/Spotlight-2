@@ -13,6 +13,8 @@ namespace ПП
     public partial class Form5_2 : Form
     {
         Query controller;
+        public static bool z32;
+        public static int kol2 = 0;
         public Form5_2()
         {
             InitializeComponent();
@@ -30,20 +32,23 @@ namespace ПП
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            bool z32;
             if ((gunaMediumCheckBox3.Checked == false) && (gunaMediumCheckBox4.Checked == true)
                 &&
                 (gunaMediumCheckBox5.Checked == false) && (gunaMediumCheckBox6.Checked == false))
                 z32 = true;
             else z32 = false;
             controller.Modul2(CheckIn.KodY, Form4_2.z12, Form4_2.z22, z32);
+            if (Form4_2.z12 == true) kol2 = kol2 + 1;
+            if (Form4_2.z22 == true) kol2 = kol2 + 1;
+            if (z32 == true) kol2 = kol2 + 1;
+            Mark2 m2 = new Mark2();
+            this.Hide();
+            m2.Show();
         }
 
         private void gunaButton2_Click(object sender, EventArgs e)
         {
-            Form12 f12 = new Form12();
-            this.Hide();
-            f12.Show();
+
         }
     }
 }
