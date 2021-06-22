@@ -89,6 +89,7 @@ namespace ПП
             // gunaLabel1
             // 
             this.gunaLabel1.AutoSize = true;
+            this.gunaLabel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.gunaLabel1.Location = new System.Drawing.Point(156, 24);
             this.gunaLabel1.Name = "gunaLabel1";
