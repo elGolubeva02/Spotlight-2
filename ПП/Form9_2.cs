@@ -14,7 +14,7 @@ namespace ПП
     {
         Query controller;
         public static bool z34; 
-        public static int kol4 = -1;
+        public static int kol4 = 0;
         public Form9_2()
         {
             InitializeComponent();
@@ -36,7 +36,6 @@ namespace ПП
             if (Form8_2.z14 == true) kol4 = kol4 + 1;
             if (Form8_2.z24 == true) kol4 = kol4 + 1;
             if (z34 == true) kol4 = kol4 + 1;
-            kol4 = kol4 + 1;
             Mark4 m4 = new Mark4();
             this.Hide();
             m4.Show();

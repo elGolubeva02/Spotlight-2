@@ -13,7 +13,7 @@ namespace ПП
     public partial class Form3_2 : Form
     {
         public static bool z31;
-        public static int kol = -1;
+        public static int kol = 0;
         Query controller;
         public Form3_2()
         {
@@ -34,7 +34,6 @@ namespace ПП
             if (Form2_2.z11 == true) kol = kol + 1;
             if (Form2_2.z21 == true) kol = kol + 1;
             if (z31 == true) kol = kol + 1;
-            kol = kol + 1;
             Mark m1 = new Mark();
             this.Hide();
             m1.Show();

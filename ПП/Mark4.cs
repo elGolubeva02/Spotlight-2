@@ -44,5 +44,10 @@ namespace ПП
             this.Hide();
             f12.Show();
         }
+
+        private void gunaPictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

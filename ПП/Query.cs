@@ -61,25 +61,61 @@ namespace ПП
             connection.Close();
             return kode;
         }
-        //public int Color1(int KodY)
-        //{
-
-        //    bool z1, z2, z3;
-        //    int zItog = -1;
-        //    connection.Open();
-        //    OleDbDataAdapter dAdapt = new OleDbDataAdapter();
-        //    command = new OleDbCommand("Select Задание1, Задание2, Задание3 From Module1 Where КодУченика = @KodY ", connection);
-        //    command.Parameters.AddWithValue("KodY", KodY);
-        //    z1 = (bool)command.ExecuteScalar();
-        //    z2 = (bool)command.ExecuteScalar();
-        //    z3 = (bool)command.ExecuteScalar();
-        //    if (z1 == true) zItog = zItog + 1;
-        //    if (z2 == true) zItog = zItog + 1;
-        //    if (z3 == true) zItog = zItog + 1;
-        //    zItog = zItog +1;
-        //    connection.Close();
-        //    return zItog;
-        //}
+        public int Color1(int KodY)
+        {
+            int Count;
+            connection.Open();
+            OleDbDataAdapter dAdapt = new OleDbDataAdapter();
+            command = new OleDbCommand("Select COUNT(*) From Module1 Where КодУченика = @KodY ", connection);
+            command.Parameters.AddWithValue("KodY", KodY);
+            Count = (int)command.ExecuteScalar();
+            connection.Close();
+            return Count;
+        }
+        public int Color2(int KodY)
+        {
+            int Count2;
+            connection.Open();
+            OleDbDataAdapter dAdapt = new OleDbDataAdapter();
+            command = new OleDbCommand("Select COUNT(*) From Module2 Where КодУченика = @KodY ", connection);
+            command.Parameters.AddWithValue("KodY", KodY);
+            Count2 = (int)command.ExecuteScalar();
+            connection.Close();
+            return Count2;
+        }
+        public int Color3(int KodY)
+        {
+            int Count3;
+            connection.Open();
+            OleDbDataAdapter dAdapt = new OleDbDataAdapter();
+            command = new OleDbCommand("Select COUNT(*) From Module3 Where КодУченика = @KodY ", connection);
+            command.Parameters.AddWithValue("KodY", KodY);
+            Count3 = (int)command.ExecuteScalar();
+            connection.Close();
+            return Count3;
+        }
+        public int Color4 (int KodY)
+        {
+            int Count4;
+            connection.Open();
+            OleDbDataAdapter dAdapt = new OleDbDataAdapter();
+            command = new OleDbCommand("Select COUNT(*) From Module4 Where КодУченика = @KodY ", connection);
+            command.Parameters.AddWithValue("KodY", KodY);
+            Count4 = (int)command.ExecuteScalar();
+            connection.Close();
+            return Count4;
+        }
+        public int Color5(int KodY)
+        {
+            int Count5;
+            connection.Open();
+            OleDbDataAdapter dAdapt = new OleDbDataAdapter();
+            command = new OleDbCommand("Select COUNT(*) From Module5 Where КодУченика = @KodY ", connection);
+            command.Parameters.AddWithValue("KodY", KodY);
+            Count5 = (int)command.ExecuteScalar();
+            connection.Close();
+            return Count5;
+        }
         public DataTable Modul1(int КодУченика, bool Задание1, bool Задание2, bool Задание3)
         {
             connection.Open();

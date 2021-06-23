@@ -54,6 +54,7 @@ namespace ПП
             this.gunaPictureBox3.Size = new System.Drawing.Size(126, 126);
             this.gunaPictureBox3.TabIndex = 49;
             this.gunaPictureBox3.TabStop = false;
+            this.gunaPictureBox3.Click += new System.EventHandler(this.gunaPictureBox3_Click);
             // 
             // gunaPictureBox2
             // 
