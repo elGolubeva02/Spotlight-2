@@ -353,22 +353,22 @@ namespace ПП
             this.gunaButton1.BaseColor = System.Drawing.Color.Transparent;
             this.gunaButton1.BorderColor = System.Drawing.Color.Transparent;
             this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton1.FocusedColor = System.Drawing.Color.Black;
+            this.gunaButton1.FocusedColor = System.Drawing.Color.Transparent;
             this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.gunaButton1.ForeColor = System.Drawing.Color.Black;
             this.gunaButton1.Image = null;
             this.gunaButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton1.ImageSize = new System.Drawing.Size(30, 40);
-            this.gunaButton1.Location = new System.Drawing.Point(236, 678);
+            this.gunaButton1.Location = new System.Drawing.Point(257, 678);
             this.gunaButton1.Name = "gunaButton1";
             this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.Transparent;
-            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Transparent;
             this.gunaButton1.OnHoverForeColor = System.Drawing.Color.Black;
             this.gunaButton1.OnHoverImage = null;
             this.gunaButton1.OnPressedColor = System.Drawing.Color.Transparent;
-            this.gunaButton1.Size = new System.Drawing.Size(134, 40);
+            this.gunaButton1.Size = new System.Drawing.Size(91, 40);
             this.gunaButton1.TabIndex = 78;
-            this.gunaButton1.Text = "Узнать оценку!";
+            this.gunaButton1.Text = "My Score!";
             this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
             // 
             // gunaLabel1
@@ -428,7 +428,7 @@ namespace ПП
             this.Controls.Add(this.gunaLabel1);
             this.Controls.Add(this.gunaMediumCheckBox1);
             this.Name = "Form5_2";
-            this.Text = "Form5_2";
+            this.Text = "Module2";
             this.Load += new System.EventHandler(this.Form5_2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox5)).EndInit();

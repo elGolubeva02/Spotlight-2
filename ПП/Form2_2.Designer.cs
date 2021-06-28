@@ -518,7 +518,7 @@ namespace ПП
             this.Controls.Add(this.gunaLabel1);
             this.Controls.Add(this.gunaPictureBox1);
             this.Name = "Form2_2";
-            this.Text = "Form2_2";
+            this.Text = "Module1";
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox5)).EndInit();

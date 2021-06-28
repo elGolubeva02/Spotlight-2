@@ -769,7 +769,7 @@ namespace ПП
             this.Controls.Add(this.gunaButton3);
             this.Controls.Add(this.gunaLabel1);
             this.Name = "Form10_2";
-            this.Text = "Form10_2";
+            this.Text = "Module5";
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).EndInit();

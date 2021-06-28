@@ -27,7 +27,7 @@ namespace ПП
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            if ((gunaTextBox1.Text == "hot") && (gunaTextBox2.Text == "windy") && (gunaTextBox2.Text == "cold")) gunaLabel7.Text = "You are right!";
+            if ((gunaTextBox1.Text == "hot") && (gunaTextBox2.Text == "windy") && (gunaTextBox3.Text == "cold")) gunaLabel7.Text = "You are right!";
             else gunaLabel7.Text = "You are not right!";
         }
 

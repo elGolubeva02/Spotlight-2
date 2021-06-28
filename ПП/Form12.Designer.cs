@@ -189,7 +189,7 @@ namespace ПП
             this.Controls.Add(this.gunaButton2);
             this.Controls.Add(this.gunaButton1);
             this.Name = "Form12";
-            this.Text = "Form12";
+            this.Text = "Главная";
             this.ResumeLayout(false);
 
         }
