@@ -32,12 +32,17 @@ namespace ПП
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            controller.Registracia(gunaTextBox1.Text, gunaTextBox2.Text);
-            KodY = Convert.ToInt32(controller.Autorise2(gunaTextBox1.Text, gunaTextBox2.Text));
-            Debug.WriteLine(KodY);
-            Form12 f12 = new Form12();
-            this.Hide();
-            f12.Show();
+            if (gunaTextBox1.Text == "") MessageBox.Show("Enter your last name!", "Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else if (gunaTextBox2.Text == "") MessageBox.Show("Enter your name!", "Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else
+            {
+                controller.Registracia(gunaTextBox1.Text, gunaTextBox2.Text);
+                KodY = Convert.ToInt32(controller.Autorise2(gunaTextBox1.Text, gunaTextBox2.Text));
+                Debug.WriteLine(KodY);
+                Form12 f12 = new Form12();
+                this.Hide();
+                f12.Show();
+            }
         }
 
         private void gunaTextBox1_TextChanged(object sender, EventArgs e)

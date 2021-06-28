@@ -14,7 +14,6 @@ namespace ПП
     {
         OleDbConnection connection;
         OleDbCommand command;
-        OleDbDataAdapter dataAdapter;
         DataTable bufferTable;
 
         public Query(string Conn)
